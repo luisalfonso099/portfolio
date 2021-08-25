@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ /* ----------------------------------ESTILOS DEL NAVBAR ---------------------*/
+header {
+  position: relative;
+  top: 0px;
+  background-color: #fff;
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  z-index: 3;
+}
+
+.logo {
+  font-size: 2rem;
+  position: absolute;
+  left: 100px;
+  top: 10px;
+  color: rgb(27, 177, 204);
+}
+#btn-menu {
+  display: none;
+}
+header label {
+  display: none;
+  padding: 10px;
+}
+header label:hover {
+  cursor: pointer;
+}
+.menu ul {
+  margin-right: 80px;
+  margin-top: 19px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  display: block;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.menu a:hover {
+  transition: 0.1s;
+  color: rgb(15, 59, 59);
+  border-bottom: 3px solid rgb(73, 240, 240);
+}
+
+/* -----------------------------------------------ESTILO DE LA PORTADA-------------------------- */
+.portada {
+  width: 100%;
+  height: auto;
+  padding: 50px 100px 190px 100px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.foto {
+  width: 400px;
+  height: auto;
+  margin: auto;
+  border-radius: 35%;
+}
+.redes {
+  width: 45%;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.redes i {
+  font-size: 2.5rem;
+}
+.redes i:hover {
+  color: rgb(23, 161, 161);
+  cursor: pointer;
+}
+
+.luis {
+  color: rgb(23, 161, 161);
+}
+.texto-principal {
+  display: flex;
+  flex-direction: column;
+}
+
+.portada h1 {
+  margin-top: 80px;
+  font-size: 4rem;
+}
+
+/* ------------------------------------ESTILOS DEL ABOUT-------------------------------------------- */
+
+.about > h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(41, 40, 40);
+}
+
+.perfil {
+  z-index: 0;
+  padding: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-about {
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 5px 9px rgb(11, 55, 61);
+}
+.texto-about {
+  width: 40%;
+  margin-left: 20px;
+  font-size:1.5rem;
+}
+.texto-about h2 {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+}
+.texto-about p {
+  font-family: helvetica, arial;
+  font-weight: 400;
+}
+
+/* ----------------------------------------ESTILOS DE  TECNOLOGIAS--------------------------------------------- */
+.skills {
+  overflow: hidden;
+  padding: 100px;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  position: relative;
+}
+.skills > h2 {
+  padding: 100px 0;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(41, 40, 40);
+}
+.iconos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lenguages {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+
+.lenguages .fab {
+  font-size: 8rem;
+  transition: 0.5s;
+}
+.fa-html5 {
+  transition: 0.5s;
+  color: rgb(202, 26, 26);
+  transform: translateY(-5px);
+}
+.fa-css3-alt {
+  transition: 0.5s;
+  color: rgba(56, 41, 190, 0.9);
+  transform: translateY(-5px);
+}
+
+.fa-bootstrap {
+  transition: 0.5s;
+  color: rgba(102, 88, 233, 0.9);
+  transform: translateY(-5px);
+}
+
+.fa-js-square {
+  transition: 0.5s;
+  color: rgba(208, 219, 49, 0.9);
+  transform: translateY(-5px);
+}
+.fa-react {
+  transition: 0.5s;
+  color: rgba(12, 173, 173, 0.9);
+  transform: translateY(-5px);
+}
+
+/* ---------------------------------------ESTILOS DE PROYECTOS------------------------------------------ */
+.proyectos {
+  padding: 100px;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.sprints {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.proyectos h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(41, 40, 40);
+}
+.muestras {
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.muestras a{
+  margin: 1rem 1rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight : bold;
+  font-size: 1.5rem;
+}
+
+
+.muestras img{
+  height: 100px;
+  /* width: 220px; */
+} 
+
+
+
+/* ---------------------------------------ESTILOS DE FOOOTER------------------------------------------------- */
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(19, 29, 51);
+  color: rgb(244, 253, 253);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

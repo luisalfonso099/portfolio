@@ -1,0 +1,185 @@
+
+ /* ----------------------------------ESTILOS DEL NAVBAR ---------------------*/
+
+@media (max-width: 850px) {
+  .logo {
+    top: 0;
+    bottom: 5px;
+    left: 15px;
+  }
+  header {
+    z-index: 2;
+    position: fixed;
+    height: 47px;
+  }
+  header label {
+    display: block;
+    margin-top: 14px;
+  }
+  .uno,
+  .dos,
+  .tres {
+    height: 3px;
+    width: 30px;
+    background-color: rgb(59, 174, 189);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: all 0.5s;
+  }
+  .dos {
+    background-color: black;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 0;
+    margin: 45px 0;
+    background-color: rgb(59, 174, 189);
+    transition: 0.7s;
+    transform: translateX(100%);
+  }
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu ul a {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 15px 0;
+    width: 100%;
+    margin: 0;
+  }
+  header label {
+    position: absolute;
+    top: -15px;
+    right: 10px;
+  }
+
+  #btn-menu:checked ~ .menu {
+    transform: translateX(0%);
+  }
+  #btn-menu:checked ~ label .uno {
+    transform: translateY(11px) rotate(40deg);
+    background-color: black;
+  }
+  #btn-menu:checked ~ label .dos {
+    transform: translateX(100px);
+  }
+  #btn-menu:checked ~ label .tres {
+    transform: translateY(-5px) rotate(-40deg);
+  }
+}
+
+/* -----------------------------------------------ESTILO DE LA PORTADA-------------------------- */
+
+@media (max-width: 850px) {
+  .portada {
+    width: 100%;
+    padding: 20px 20px;
+    margin-top: 0;
+  }
+  .redes {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .redes i {
+    font-size: 1.8rem;
+  }
+
+  .texto-principal {
+    width: 100%;
+  }
+  .portada h1 {
+    font-size: 2.5rem;
+  }
+
+  .foto {
+    width: 250px;
+    height: auto;
+    margin-top: 0;
+    margin-right: 0;
+    border-radius: 35%;
+    margin: 30px auto;
+  }
+}
+/* ------------------------------------ESTILOS DEL ABOUT-------------------------------------------- */
+
+
+@media (max-width: 850px) {
+  .perfil {
+    padding: 0 16px;
+    flex-direction: column;
+  }
+  .img-about {
+    width: auto;
+    height: 400px;
+    margin-bottom: 40px;
+  }
+  .texto-about {
+    width: 90%;
+    margin-left: 0;
+  }
+}
+/* ----------------------------------------ESTILOS DE  TECNOLOGIAS--------------------------------------------- */
+@media (max-width: 850px) {
+  .skills {
+    padding: 0 16px;
+  }
+  .skills h2 {
+    padding: 40px 0 0 0;
+    font-size: 2.5rem;
+  }
+  .lenguages {
+    margin: 50px 0;
+  }
+  .iconos > h2 {
+    font-size: 1rem;
+  }
+  .lenguages .fab {
+    font-size: 4rem;
+  }
+  .fa-bootstrap{
+  color: rgba(102, 88, 233, 0.9);
+    
+  }
+  .fa-html5 {
+    color: rgb(202, 26, 26);
+  }
+  .fa-css3-alt {
+    color: rgba(56, 41, 190, 0.9);
+  }
+  .fa-js-square {
+    color: rgba(180, 192, 10, 0.9);
+  }
+  .fa-react {
+    color: rgba(12, 173, 173, 0.9);
+  }
+  .lord-icon {
+    left: -20%;
+    animation: lord infinite 10s ease-in-out;
+  }
+}
+/* ---------------------------------------ESTILOS DE PROYECTOS------------------------------------------ */
+@media (max-width: 850px) {
+  .proyectos {
+    padding: 50px 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sprints {
+    justify-content: center;
+  }
+  .proyectos h2 {
+    margin: 25px auto;
+    font-size: 2rem;
+  }
+
+}
