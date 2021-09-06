@@ -126,6 +126,8 @@
   .texto-about {
     width: 90%;
     margin-left: 0;
+    margin-bottom: 100px;
+
   }
 }
 /* ----------------------------------------ESTILOS DE  TECNOLOGIAS--------------------------------------------- */
@@ -173,9 +175,12 @@
     padding: 50px 10px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0px;
   }
   .sprints {
     justify-content: center;
+    margin-bottom: 50px;
+
   }
   .proyectos h2 {
     margin: 25px auto;
