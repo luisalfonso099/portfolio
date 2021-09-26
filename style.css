@@ -245,10 +245,12 @@ header label:hover {
   font-size: 1.5rem;
 }
 .muestras img{
-  height: 100px;
+  max-height: 100px;
 } 
 
-
+.question{
+  max-height: 170px;
+}
 
 /* ---------------------------------------ESTILOS DE FOOOTER------------------------------------------------- */
 footer {
