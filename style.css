@@ -70,13 +70,31 @@ header label:hover {
   border-radius: 35%;
 }
 .redes {
-  width: 45%;
+  width: 500px;
   margin: 20px 0 0 0;
   display: flex;
   justify-content: space-between;
+  text-align: center;
+}
+.redes a{
+  display:flex;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  height: 45px;
+  overflow: hidden;
+  width: 100px;
+}
+.redes a:hover{
+  overflow: visible;
+}
+.redes p{
+  color: rgb(78, 77, 77);
+  font-weight: bold;
 }
 .redes i {
   font-size: 2.5rem;
+  margin-bottom: 10px ;
 }
 .redes i:hover {
   color: rgb(23, 161, 161);
