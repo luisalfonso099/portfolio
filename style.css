@@ -188,12 +188,14 @@ header label:hover {
 
 .lenguages {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 100px 0;
 }
 
 .lenguages .fab {
   font-size: 8rem;
+  width: 150px;
   transition: 0.5s;
 }
 .fa-html5 {
@@ -210,6 +212,11 @@ header label:hover {
 .fa-bootstrap {
   transition: 0.5s;
   color: rgba(102, 88, 233, 0.9);
+  transform: translateY(-5px);
+}
+.fa-git-square{
+  transition: 0.5s;
+  color: rgba(248, 79, 1, 0.9);
   transform: translateY(-5px);
 }
 

@@ -146,7 +146,7 @@
     font-size: 1rem;
   }
   .lenguages .fab {
-    font-size: 4rem;
+    width: 150px;
   }
   .fa-bootstrap{
   color: rgba(102, 88, 233, 0.9);
@@ -163,10 +163,6 @@
   }
   .fa-react {
     color: rgba(12, 173, 173, 0.9);
-  }
-  .lord-icon {
-    left: -20%;
-    animation: lord infinite 10s ease-in-out;
   }
 }
 /* ---------------------------------------ESTILOS DE PROYECTOS------------------------------------------ */
