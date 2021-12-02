@@ -81,7 +81,8 @@ header label:hover {
   text-decoration: none;
   flex-direction: column;
   align-items: center;
-  height: 45px;
+  justify-content: center;
+  height: 150px;
   overflow: hidden;
   width: 100px;
 }
