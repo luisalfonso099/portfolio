@@ -184,6 +184,7 @@ header label:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 80px 0;
 }
 
 .lenguages {
@@ -209,6 +210,11 @@ header label:hover {
   transform: translateY(-5px);
 }
 
+.fa-sass{
+  transition: 0.5s;
+  color: rgba(224, 11, 118, 0.9);
+  transform: translateY(-5px);
+}
 .fa-bootstrap {
   transition: 0.5s;
   color: rgba(102, 88, 233, 0.9);
