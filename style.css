@@ -123,7 +123,8 @@ header label:hover {
     rgb(186, 233, 240),
     rgb(189, 236, 245)
   );
-  clip-path: polygon(0px 10%, 100% 0px, 100% 90%, 0% 100%);
+  /* height: auto; */
+  clip-path: polygon(0px 5%, 100% 0px, 100% 95%, 0% 100%);
   padding-top:50px;
 }
 .about > h2 {
@@ -260,7 +261,7 @@ header label:hover {
     rgb(186, 233, 240),
     rgb(189, 236, 245)
   );
-  clip-path: polygon(0px 10%, 100% 0px, 100% 90%, 0% 100%);
+  clip-path: polygon(0px 5%, 100% 0px, 100% 95%, 0% 100%);
   padding-top:50px;
 
 }
